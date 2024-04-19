@@ -4,4 +4,4 @@ version = "0.0.1"
 schema_version = 1
 authors = ["Bryan Buchanan <bryan.b@hey.com>"]
 description = "Uno Flat is a minimal Zed theme based on Atom's One Dark."
-repository = ""
+repository = "https://github.com/bryanbuchanan/unoflat"
