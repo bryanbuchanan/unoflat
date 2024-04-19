@@ -1,3 +1,3 @@
-# Uno Flat Zed Theme
+# Uno Flat Zed Theme.
 
-This is a very rough port of the *One Dark* theme for Atom, but with a flat look and a few other small tweaks.
+Uno Flat is a minimal Zed theme based on One Dark Pro, but with a flatter look and a few small tweaks.
