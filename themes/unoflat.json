@@ -4,7 +4,7 @@
   "author": "Bryan Buchanan <bryan.b@hey.com>",
   "themes": [
     {
-      "name": "Uno Flat Dark (Dev)",
+      "name": "Uno Flat Dark",
       "appearance": "dark",
       "style": {
         "editor.foreground": "#abb2bf",
@@ -55,7 +55,7 @@
         "error.background": "#503d47",
         "error.border": "#e06c75",
         "info": "#4aa5f0",
-        "scrollbar.thumb.background": "rgba(78, 86, 102, 0.6)",
+        "scrollbar.thumb.background": "#abb2bf44",
         "scrollbar.thumb.border": "transparent",
         "scrollbar.track.background": "transparent",
         "terminal.background": "#282c33",

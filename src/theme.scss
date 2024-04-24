@@ -7,7 +7,7 @@
 themes {
 
 	dark {
-		--name: "Uno Flat Dark (Dev)";
+		--name: "Uno Flat Dark";
 		--appearance: "dark";
 
 		$foreground-accent: #f3cf3f;
@@ -16,7 +16,6 @@ themes {
 		$foreground: #abb2bf;
 		$foreground-low-contrast: #7a808b;
 		$foreground-lower-contrast: #495162;
-		$foreground-transparent: #4e566699;
 
 		$background-lowest-contrast: #495162;
 		$background-lower-contrast: #3a414e;
@@ -38,7 +37,7 @@ themes {
 		$error: #e06c75;
 		$error-background: mix($background-low-contrast, $error, 80%);
 		$error-border: $error;
-		
+
 		$deleted: #e06c75;
 		$created: #a5e075;
 		$warning: #d19a66;
@@ -131,7 +130,7 @@ themes {
 			// --info-background: #{$info-background};
 
 			/* Scrollbar */
-			--scrollbar-thumb-background: #{$foreground-transparent};
+			--scrollbar-thumb-background: #{$foreground}44;
 			// --scrollbar-thumb-hover--background: #abb2bf;
 			--scrollbar-thumb-border: transparent;
 			--scrollbar-track-background: transparent;
@@ -235,7 +234,7 @@ themes {
 				variable.special { color: #{$syntax7}; }
 				variant { color: #{$syntax6}; }
 
-			} 
+			}
 
 			// TODO
 			// --editor-subheader-background: null;
