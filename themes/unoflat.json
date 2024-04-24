@@ -4,7 +4,7 @@
   "author": "Bryan Buchanan <bryan.b@hey.com>",
   "themes": [
     {
-      "name": "Uno Flat Dark",
+      "name": "Uno Flat Dark (Dev)",
       "appearance": "dark",
       "style": {
         "editor.foreground": "#abb2bf",
@@ -27,8 +27,8 @@
         "text.placeholder": "#495162",
         "text.disabled": "#495162",
         "text.accent": "#f3cf3f",
-        "surface.background": "#2c313c",
-        "elevated_surface.background": "#20242a",
+        "surface.background": "#3a414e",
+        "elevated_surface.background": "#3a414e",
         "panel.background": "#282c33",
         "panel.focused_border": null,
         "background": "#282c33",
@@ -46,11 +46,15 @@
         "predictive": "#4D5970",
         "modified": "#e5c07b",
         "ignored": "#636b78",
-        "hint": "#abb2bf",
-        "error": "#e56973",
         "deleted": "#e06c75",
         "created": "#a5e075",
         "warning": "#d19a66",
+        "hint": "#abb2bf",
+        "hint.background": "#324860",
+        "error": "#e06c75",
+        "error.background": "#503d47",
+        "error.border": "#e06c75",
+        "info": "#4aa5f0",
         "scrollbar.thumb.background": "rgba(78, 86, 102, 0.6)",
         "scrollbar.thumb.border": "transparent",
         "scrollbar.track.background": "transparent",
@@ -198,7 +202,7 @@
             "color": "#a9d48a"
           },
           "title": {
-            "color": "#e4c17b",
+            "color": "#f6707b",
             "font_weight": 700
           },
           "type": {

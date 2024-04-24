@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.0.3
+
+- Improved tooltip contrast ratio
+- Used more descriptive color names in the source SCSS file
+
 ### 0.0.2
 
 - Lightened invisibles color
