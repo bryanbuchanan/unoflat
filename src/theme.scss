@@ -56,7 +56,7 @@ themes {
 		$syntax1: #a9d48a;
 		$syntax2: #f6707b;
 		$syntax3: #df9d5e;
-		$syntax4: #abb2bf;
+		$syntax4: rgb(156, 177, 216);
 		$syntax5: #cc7de7;
 		$syntax6: #79bcf3;
 		$syntax7: #e4c17b;
@@ -206,7 +206,7 @@ themes {
 				operator { color: #{$syntax8}; }
 				predictive { color: #{$syntax4}; }
 				preproc { color: #{$syntax1}; }
-				primary { color: #{$syntax5}; }
+				primary { color: #{$syntax5}; } // <--
 				property { color: #{$syntax2}; }
 				punctuation { color: #{$syntax7}; }
 				punctuation.bracket { color: #{$syntax3}; }
@@ -215,7 +215,7 @@ themes {
 					color: #{$syntax7};
 					font-weight: 700;
 				}
-				punctuation.special { color: #{$syntax2}; }
+				punctuation.special { color: #{$syntax5}; } // <--
 				string {
 					color: #{$syntax1};
 					&.escape { color: #{$syntax1}; }
@@ -230,7 +230,7 @@ themes {
 					font-weight: 700;
 				}
 				type { color: #{$syntax7}; }
-				variable { color: #{$syntax2}; }
+				variable { color: #{$syntax4}; }
 				variable.special { color: #{$syntax7}; }
 				variant { color: #{$syntax6}; }
 

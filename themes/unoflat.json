@@ -106,7 +106,7 @@
             "font_style": "italic"
           },
           "comment.doc": {
-            "color": "#abb2bf"
+            "color": "rgb(156, 177, 216)"
           },
           "constant": {
             "color": "#df9d5e"
@@ -115,7 +115,7 @@
             "color": "#f6707b"
           },
           "embedded": {
-            "color": "#abb2bf"
+            "color": "rgb(156, 177, 216)"
           },
           "emphasis": {
             "color": "#cc7de7",
@@ -132,7 +132,7 @@
             "color": "#79bcf3"
           },
           "hint": {
-            "color": "#abb2bf"
+            "color": "rgb(156, 177, 216)"
           },
           "keyword": {
             "color": "#cc7de7"
@@ -153,7 +153,7 @@
             "color": "#40b8c8"
           },
           "predictive": {
-            "color": "#abb2bf"
+            "color": "rgb(156, 177, 216)"
           },
           "preproc": {
             "color": "#a9d48a"
@@ -178,7 +178,7 @@
             "font_weight": 700
           },
           "punctuation.special": {
-            "color": "#f6707b"
+            "color": "#cc7de7"
           },
           "string": {
             "color": "#a9d48a"
@@ -209,7 +209,7 @@
             "color": "#e4c17b"
           },
           "variable": {
-            "color": "#f6707b"
+            "color": "rgb(156, 177, 216)"
           },
           "variable.special": {
             "color": "#e4c17b"

@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.0.4
+
+- Improved contrast between different types of syntax
+
 ### 0.0.3
 
 - Improved tooltip contrast ratio
