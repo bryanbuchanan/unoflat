@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.0.5
+
+- Removed unused SCSS variables
+
 ### 0.0.4
 
 - Improved contrast between different types of syntax
