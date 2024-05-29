@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.0.6
+
+- Color tweaks and refinements
+- Bolder function names
+
 ### 0.0.5
 
 - Removed unused SCSS variables

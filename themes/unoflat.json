@@ -60,12 +60,12 @@
         "scrollbar.track.background": "transparent",
         "terminal.background": "#282c33",
         "terminal.ansi.black": "#3f4451",
-        "terminal.ansi.red": "#dc6d75",
-        "terminal.ansi.green": "#98c379",
+        "terminal.ansi.red": "#f6707b",
+        "terminal.ansi.green": "#aed98f",
         "terminal.ansi.yellow": "#d9c770",
-        "terminal.ansi.blue": "#4aa5f0",
+        "terminal.ansi.blue": "#5db5ff",
         "terminal.ansi.magenta": "#c162de",
-        "terminal.ansi.cyan": "#42b3c2",
+        "terminal.ansi.cyan": "#40b8c8",
         "terminal.ansi.white": "#efefef",
         "players": [
           {
@@ -74,9 +74,9 @@
             "selection": "#efefef22"
           },
           {
-            "cursor": "#4aa5f0",
-            "background": "#4aa5f0",
-            "selection": "#4aa5f044"
+            "cursor": "#5db5ff",
+            "background": "#5db5ff",
+            "selection": "#5db5ff44"
           },
           {
             "cursor": "#c162de",
@@ -84,14 +84,14 @@
             "selection": "#c162de44"
           },
           {
-            "cursor": "#98c379",
-            "background": "#98c379",
-            "selection": "#98c37944"
+            "cursor": "#aed98f",
+            "background": "#aed98f",
+            "selection": "#aed98f44"
           },
           {
-            "cursor": "#dc6d75",
-            "background": "#dc6d75",
-            "selection": "#dc6d7544"
+            "cursor": "#f6707b",
+            "background": "#f6707b",
+            "selection": "#f6707b44"
           }
         ],
         "syntax": {
@@ -122,14 +122,15 @@
             "font_style": "italic"
           },
           "emphasis.strong": {
-            "color": "#e4c17b",
+            "color": "#efc36c",
             "font_weight": 700
           },
           "enum": {
             "color": "#40b8c8"
           },
           "function": {
-            "color": "#79bcf3"
+            "color": "#5db5ff",
+            "font_weight": 700
           },
           "hint": {
             "color": "#9cb1d8"
@@ -138,16 +139,16 @@
             "color": "#cc7de7"
           },
           "label": {
-            "color": "#79bcf3"
+            "color": "#5db5ff"
           },
           "link_text": {
-            "color": "#79bcf3"
+            "color": "#5db5ff"
           },
           "link_uri": {
             "color": "#cc7de7"
           },
           "number": {
-            "color": "#e4c17b"
+            "color": "#efc36c"
           },
           "operator": {
             "color": "#40b8c8"
@@ -156,7 +157,7 @@
             "color": "#9cb1d8"
           },
           "preproc": {
-            "color": "#a9d48a"
+            "color": "#aed98f"
           },
           "primary": {
             "color": "#cc7de7"
@@ -165,29 +166,29 @@
             "color": "#f6707b"
           },
           "punctuation": {
-            "color": "#e4c17b"
+            "color": "#efc36c"
           },
           "punctuation.bracket": {
             "color": "#df9d5e"
           },
           "punctuation.delimiter": {
-            "color": "#e4c17b"
+            "color": "#efc36c"
           },
           "punctuation.list_marker": {
-            "color": "#e4c17b",
+            "color": "#efc36c",
             "font_weight": 700
           },
           "punctuation.special": {
             "color": "#cc7de7"
           },
           "string": {
-            "color": "#a9d48a"
+            "color": "#aed98f"
           },
           "string.escape": {
-            "color": "#a9d48a"
+            "color": "#aed98f"
           },
           "string.regex": {
-            "color": "#a9d48a"
+            "color": "#aed98f"
           },
           "string.special": {
             "color": "#40b8c8"
@@ -199,23 +200,23 @@
             "color": "#cc7de7"
           },
           "text.literal": {
-            "color": "#a9d48a"
+            "color": "#aed98f"
           },
           "title": {
             "color": "#f6707b",
             "font_weight": 700
           },
           "type": {
-            "color": "#e4c17b"
+            "color": "#efc36c"
           },
           "variable": {
-            "color": "#bcc4d3"
+            "color": "#dedfd9"
           },
           "variable.special": {
-            "color": "#e4c17b"
+            "color": "#efc36c"
           },
           "variant": {
-            "color": "#79bcf3"
+            "color": "#5db5ff"
           }
         }
       }
