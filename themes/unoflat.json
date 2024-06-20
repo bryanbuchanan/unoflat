@@ -61,23 +61,23 @@
         "scrollbar.track.background": "transparent",
         "terminal.background": "#252834",
         "terminal.ansi.black": "#3f4451",
-        "terminal.ansi.red": "#e06c75",
-        "terminal.ansi.green": "#98c379",
+        "terminal.ansi.red": "#e06a87",
+        "terminal.ansi.green": "#79c396",
         "terminal.ansi.yellow": "#e5c07b",
-        "terminal.ansi.blue": "#61afee",
+        "terminal.ansi.blue": "#61c6ee",
         "terminal.ansi.magenta": "#c678dd",
         "terminal.ansi.cyan": "#56b6c2",
-        "terminal.ansi.white": "#dedfd9",
+        "terminal.ansi.white": "#d9dcdf",
         "players": [
           {
-            "cursor": "#dedfd9",
-            "background": "#dedfd9",
-            "selection": "#dedfd922"
+            "cursor": "#d9dcdf",
+            "background": "#d9dcdf",
+            "selection": "#d9dcdf22"
           },
           {
-            "cursor": "#61afee",
-            "background": "#61afee",
-            "selection": "#61afee44"
+            "cursor": "#61c6ee",
+            "background": "#61c6ee",
+            "selection": "#61c6ee44"
           },
           {
             "cursor": "#c678dd",
@@ -85,14 +85,14 @@
             "selection": "#c678dd44"
           },
           {
-            "cursor": "#98c379",
-            "background": "#98c379",
-            "selection": "#98c37944"
+            "cursor": "#79c396",
+            "background": "#79c396",
+            "selection": "#79c39644"
           },
           {
-            "cursor": "#e06c75",
-            "background": "#e06c75",
-            "selection": "#e06c7544"
+            "cursor": "#e06a87",
+            "background": "#e06a87",
+            "selection": "#e06a8744"
           }
         ],
         "syntax": {
@@ -113,7 +113,7 @@
             "color": "#d19966"
           },
           "constructor": {
-            "color": "#e06c75"
+            "color": "#e06a87"
           },
           "embedded": {
             "color": "#9cb1d8"
@@ -130,7 +130,7 @@
             "color": "#56b6c2"
           },
           "function": {
-            "color": "#61afee",
+            "color": "#61c6ee",
             "font_weight": 700
           },
           "hint": {
@@ -140,10 +140,10 @@
             "color": "#c678dd"
           },
           "label": {
-            "color": "#61afee"
+            "color": "#61c6ee"
           },
           "link_text": {
-            "color": "#61afee"
+            "color": "#61c6ee"
           },
           "link_uri": {
             "color": "#c678dd"
@@ -158,13 +158,13 @@
             "color": "#9cb1d8"
           },
           "preproc": {
-            "color": "#98c379"
+            "color": "#79c396"
           },
           "primary": {
             "color": "#c678dd"
           },
           "property": {
-            "color": "#e06c75"
+            "color": "#e06a87"
           },
           "punctuation": {
             "color": "#e5c07b"
@@ -183,13 +183,13 @@
             "color": "#c678dd"
           },
           "string": {
-            "color": "#98c379"
+            "color": "#79c396"
           },
           "string.escape": {
-            "color": "#98c379"
+            "color": "#79c396"
           },
           "string.regex": {
-            "color": "#98c379"
+            "color": "#79c396"
           },
           "string.special": {
             "color": "#56b6c2"
@@ -201,23 +201,23 @@
             "color": "#c678dd"
           },
           "text.literal": {
-            "color": "#98c379"
+            "color": "#79c396"
           },
           "title": {
-            "color": "#e06c75",
+            "color": "#e06a87",
             "font_weight": 700
           },
           "type": {
             "color": "#e5c07b"
           },
           "variable": {
-            "color": "#dedfd9"
+            "color": "#d9dcdf"
           },
           "variable.special": {
             "color": "#e5c07b"
           },
           "variant": {
-            "color": "#61afee"
+            "color": "#61c6ee"
           }
         }
       }
