@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.1.0
+
+- Made background colors cooler.
+- Consolidated terminal and editor syntax colors.
+- Made primary UI accent color more faint.
+
 ### 0.0.6
 
 - Color tweaks and refinements
