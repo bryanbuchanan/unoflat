@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.1.1
+
+- Reverted some colors to be warmer and closer to One Dark.
+
 ### 0.1.0
 
 - Made background colors cooler.
