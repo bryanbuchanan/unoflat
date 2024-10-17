@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.1.2
+
+- Added bracket pair highlight color.
+
 ### 0.1.1
 
 - Reverted some colors to be warmer and closer to One Dark.
