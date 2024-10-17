@@ -68,6 +68,7 @@
         "terminal.ansi.magenta": "#c678dd",
         "terminal.ansi.cyan": "#56b6c2",
         "terminal.ansi.white": "#d9dcdf",
+        "editor.document_highlight.read_background": "#495162",
         "players": [
           {
             "cursor": "#d9dcdf",
