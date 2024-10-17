@@ -1,6 +1,6 @@
 # Publishing
 
-https://github.com/zed-industries/extensions/blob/main/AUTHORING_EXTENSIONS.md
+https://zed.dev/docs/extensions/developing-extensions
 
 Fork the extensions repository.
 
