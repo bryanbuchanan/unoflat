@@ -8,7 +8,7 @@ Update the `extensions.toml` file to reflect new version.
 
 cd into submodule directory
 
-```
+```sh
 git checkout main
 git pull
 ```
