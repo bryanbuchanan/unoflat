@@ -5,25 +5,25 @@
 }
 
 themes {
-
+	
 	dark {
 		--name: "Uno Flat Dark";
 		--appearance: "dark";
-
+		
 		// Foreground elements
 		$foreground-accent: 		#dfc184;
 		$foreground-high-contrast: 	#dfdfdf;
 		$foreground: 				#abb2bf;
 		$foreground-low-contrast: 	#7a808b;
 		$foreground-lower-contrast: #495162;
-
+		
 		// Background elements
 		$background-lowest-contrast: 	#495162;
 		$background-lower-contrast: 	#3a414e;
 		$background-low-contrast: 		#2c313c;
 		$background: 					#282c33;
 		$background-high-contrast: 		#202428;
-
+		
 		// Colors & Terminal
 		$green: 	#99c27c;
 		$red: 		#e06c75;
@@ -34,8 +34,8 @@ themes {
 		$yellow: 	#e5c07b;
 		$cyan: 		#56b6c2;
 		$white: 	#d9dcdf;
-		$black: 	#3f4451;
-
+		$black: 	#777e90;
+		
 		// UI
 		$predictive: #4D5970;
 		$modified: #e5c07b;
@@ -49,9 +49,9 @@ themes {
 		$deleted: #e06c75;
 		$created: #a5e075;
 		$warning: #d19a66;
-
+		
 		style {
-
+			
 			/* Editor */
 			--editor-foreground: #{$foreground};
 			--editor-background: #{$background};
@@ -80,9 +80,9 @@ themes {
 			
 			/* Icons */
 			--icons-accent: #{$foreground-accent};
-						
+			
 			/* Layout */
-			--surface-background: #{$background-lower-contrast};
+			--surface-background: #{$background};
 			--elevated_surface-background: #{$background-low-contrast};
 			--panel-background: #{$background};
 			--panel-focused_border: null;

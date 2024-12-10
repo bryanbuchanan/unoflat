@@ -1,6 +1,6 @@
 id = "unoflat"
 name = "Uno Flat Theme"
-version = "0.1.2"
+version = "0.1.3"
 schema_version = 1
 authors = ["Bryan Buchanan <bryan.b@hey.com>"]
 description = "Uno Flat is a minimal Zed theme based on Atom's One Dark."

@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.1.3
+
+- Made adjustment to correct file tree background color change.
+- Lightened terminal black color.
+
 ### 0.1.2
 
 - Added bracket pair highlight color.
