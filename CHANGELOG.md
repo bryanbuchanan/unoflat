@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.1.4
+
+- Darkened some highlight colors that were too contasty.
+- Brightened orange accent color.
+- Made hints easier to read.
+
 ### 0.1.3
 
 - Made adjustment to correct file tree background color change.
