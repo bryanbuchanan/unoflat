@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.1.5
+
+- Darkened the tab bar.
+
 ### 0.1.4
 
 - Darkened some highlight colors that were too contasty.

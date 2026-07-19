@@ -23,7 +23,7 @@ themes {
 		$background-lower-contrast: 	#3a414e;
 		$background-low-contrast: 		#2c313c;
 		$background: 					#282c33;
-		$background-high-contrast: 		#202428;
+		$background-high-contrast: 		#1a1c1e;
 		
 		// Colors & Terminal
 		$green: 	#99c27c;
@@ -193,7 +193,7 @@ themes {
 					color: #{$blue};
 					font-weight: 700;
 				}
-				hint { color: #{$grey}; }
+				hint { color: #{$foreground-low-contrast}; }
 				keyword { color: #{$magenta}; }
 				label { color: #{$blue}; }
 				link_text { color: #{$blue}; }
