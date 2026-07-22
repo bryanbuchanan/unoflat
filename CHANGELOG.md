@@ -1,12 +1,16 @@
 # Changelog
 
+### 0.1.6
+
+- Increased contrast of tooltips/popovers.
+
 ### 0.1.5
 
 - Darkened the tab bar.
 
 ### 0.1.4
 
-- Darkened some highlight colors that were too contasty.
+- Darkened some highlight colors that were too contrasty.
 - Brightened orange accent color.
 - Made hints easier to read.
 

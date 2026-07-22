@@ -1,3 +1,22 @@
+@use "sass:color";
+@use "sass:math";
+@use "sass:string";
+
+// Zed only parses #rrggbb, but sass serializes computed colors as rgb(...),
+// so blend() formats the mixed color as a hex string itself
+@function hex2($n) {
+	$digits: "0123456789abcdef";
+	$n: math.round($n);
+	$hi: math.floor(math.div($n, 16)) + 1;
+	$lo: $n % 16 + 1;
+	@return string.slice($digits, $hi, $hi) + string.slice($digits, $lo, $lo);
+}
+
+@function blend($base, $tint, $weight) {
+	$c: color.mix($base, $tint, $weight);
+	@return string.unquote("#" + hex2(color.channel($c, "red")) + hex2(color.channel($c, "green")) + hex2(color.channel($c, "blue")));
+}
+
 :root {
 	--schema: "https://zed.dev/schema/themes/v0.1.0.json";
 	--name: "Uno Flat";
@@ -42,14 +61,16 @@ themes {
 		$modified: #e5c07b;
 		$ignored: #636b78;
 		$info: #4aa5f0;
+		$info-background: blend($background-low-contrast, $info, 80%);
 		$hint: #abb2bf;
 		$hint-background: #405261;
 		$error: #e06c75;
-		$error-background: color-mix($background-low-contrast, $error, 80%);
+		$error-background: blend($background-low-contrast, $error, 80%);
 		$error-border: $error;
 		$deleted: #e06c75;
 		$created: #a5e075;
 		$warning: #d19a66;
+		$warning-background: blend($background-low-contrast, $warning, 80%);
 		
 		style {
 			
@@ -110,23 +131,26 @@ themes {
 			--deleted: #{$deleted};
 			--created: #{$created};
 			--warning: #{$warning};
+			--warning-background: #{$warning-background};
+			--warning-border: #{$warning};
 
 			--hint: #{$hint};
-			/* --hint-background: #f0f; */
+			--hint-background: #{$hint-background};
+			--hint-border: #{$hint-background};
 
 			--error: #{$error};
 			--error-background: #{$error-background};
 			--error-border: #{$error-border};
-			
+
 			--info: #{$info}; // Underline
-			--info-background: #{$hint-background};
+			--info-background: #{$info-background};
 			--info-border: #{$info};
 
 			/* Scrollbar */
 			--scrollbar-thumb-background: #{$foreground}44;
 			// --scrollbar-thumb-hover--background: #abb2bf;
-			--scrollbar-thumb-border: transparent;
-			--scrollbar-track-background: transparent;
+			--scrollbar-thumb-border: #00000000;
+			--scrollbar-track-background: #00000000;
 
 			/* Terminal */
 			--terminal-background: #{$background};
