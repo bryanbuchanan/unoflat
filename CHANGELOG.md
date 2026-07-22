@@ -3,6 +3,7 @@
 ### 0.1.6
 
 - Increased contrast of tooltips/popovers.
+- Added /publish Claude skill to assist with publishing.
 
 ### 0.1.5
 
